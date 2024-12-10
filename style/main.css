@@ -1,14 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&display=swap');
+
+#hidden{
+  display: none;
+}
+
 html {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
   margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+  font-family: "Inter", sans-serif;
 }
 
 .song {
   visibility: hidden;
+}
+
+
+
+button {
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: gray;
 }
 
 .container {

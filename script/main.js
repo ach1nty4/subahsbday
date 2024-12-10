@@ -1,5 +1,10 @@
-// trigger to play music in the background with sweetalert
-window.addEventListener('load', () => {
+
+document.addEventListener("DOMContentLoaded", function () {
+    
+
+document.getElementById("readyButton").addEventListener("click", function () {
+    document.getElementById("readyButton").style.display = "none";
+    document.getElementById("hidden").style.display = "contents";
     const song = document.querySelector('.song');
 
     // Attempt to play the music
@@ -10,6 +15,10 @@ window.addEventListener('load', () => {
     // Start the animation timeline
     animationTimeline();
 });
+});
+// trigger to play music in the background with sweetalert
+
+
 
 
 // animation timeline
